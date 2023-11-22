@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>doelen van vandaag</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.css" />
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+</head>
+
+<body>
+    <nav class="navbar is-black">
+        <div class="navbar-brand">
+            <a class="navbar-item" href="file:///C:/ALEXANDER/development-start/deepdive%202.0/Bulma-018bf0f0-018bf0f0/index.html">
+                <img src="bit academy img.svg" alt="bit logo" style="width: 70px; height: 70px;">
+            </a>
+            <span class="navbar-burger burger" data-target="nav-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+        </div>
+
+        <div id="nav-menu" class="navbar-menu">
+            <div class="navbar-end">
+                <a class="navbar-item" href="file:///C:/ALEXANDER/development-start/deepdive%202.0/Bulma-018bf0f0-018bf0f0/studentendoel.html">home</a>
+                <a class="navbar-item" href="file:///C:/ALEXANDER/development-start/deepdive%202.0/Bulma-018bf0f0-018bf0f0/uitloggenaccountstudent.html">account</a>
+            </div>
+        </div>
+    </nav>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            var burger = document.querySelector('.navbar-burger');
+            var menu = document.querySelector('.navbar-menu');
+    
+            burger.addEventListener('click', function () {
+                burger.classList.toggle('is-active');
+                menu.classList.toggle('is-active');
+            });
+        });
+    </script>
+
+    <div>
+        <div class="tabs is-medium">
+            <ul>
+              <li class="is-active"><a>nieuw doel aanmaken</a></li>
+            </ul>
+          </div>
+    </div>
+    <article class="media">
+        <figure class="media-left">
+            <p class="image is-64x64">
+                <img src="channels4_profile.jpg">
+            </p>
+        </figure>
+        <div class="media-content">
+            <div class="field">
+                <p class="control">
+                    <textarea class="textarea is-small" placeholder="10 lines of textarea" rows="10"></textarea>
+
+                </p>
+            </div>
+            <nav class="level">
+                <div class="level-left">
+                    <div class="level-item">
+                        <a class="button is-info" href="file:///C:/ALEXANDER/development-start/deepdive%202.0/Bulma-018bf0f0-018bf0f0/studentdoeliser.html">Submit</a>
+                    </div>
+                </div>
+                <div class="level-right">
+                    <div class="level-item">
+                        <label class="checkbox">
+                            <input type="checkbox"> Press enter to submit
+                        </label>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </article>
+
+</body>
+
+</html>
